@@ -3,8 +3,7 @@
 
 
 <h2>Description</h2>
-This Project consists of simple PowerShell script and Cisco ISO CLI (Internetwork Operating System Command Line Interface) that walks the user through basic switch configuration
-<br />
+This project uses Cisco IOS CLI and Windows PowerShell to configure a basic switch and verify connectivity.
 
 
 <h2>Languages and Utilities Used</h2>
@@ -24,15 +23,17 @@ topology: <br/>
 <img src="https://i.imgur.com/EuEoyBW.png" height="80%" width="80%" alt="Basic Swicth Configuration steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configure the basic settings on the switch.:  <br/>
+<img src="https://i.imgur.com/ykMYOmR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XryIWdf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configure IPv4 and IPv6 addresses on PC-A: <br/>
+<img src="https://i.imgur.com/umun8ZI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wiXwQoM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-Confirm your selection:  <br/>
+Useimng Show comandes to test network conecttivaty :  <br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
