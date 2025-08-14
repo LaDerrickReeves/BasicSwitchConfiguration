@@ -33,11 +33,11 @@ Configure IPv4 and IPv6 addresses on PC-A: <br/>
 <img src="https://i.imgur.com/umun8ZI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/wiXwQoM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-Useimng Show comandes to test network conecttivaty :  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+I used the show vlan brief command to verify the VLAN configuration on S1 and ensure the VLAN assignments are correct.:  <br/>
+<img src="https://i.imgur.com/PmdIjS6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+I used the show ip interface brief command to verify the IP address, interface statuses, and connectivity readiness on S1. :  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
