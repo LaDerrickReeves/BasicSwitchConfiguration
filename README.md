@@ -33,21 +33,31 @@ Configure IPv4 and IPv6 addresses on PC-A: <br/>
 <img src="https://i.imgur.com/umun8ZI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/wiXwQoM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-I used the show vlan brief command to verify the VLAN configuration on S1 and ensure the VLAN assignments are correct.:  <br/>
+The show vlan brief command is used to verify the VLAN configuration on S1 and ensure the VLAN assignments are correct.:  <br/>
 <img src="https://i.imgur.com/PmdIjS6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-I used the show ip interface brief command to verify the IP address, interface statuses, and connectivity readiness on S1. :  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The show ip interface brief command is used toverify the IP address, interface statuses, and connectivity readiness on S1. :  <br/>
+<img src="https://i.imgur.com/Tzfn3pP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The show running-config | include banner command is used  to verify that a banner message was configured.:  <br/>
+<img src="https://i.imgur.com/kFRyRuv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+The show interface vlan 99 command is used to verify the status, IP address, and operational condition of VLAN 99 on S1.:  <br/>
+<img src="https://i.imgur.com/YaQYqkM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br />
+<br />
+The ping command was used to test end-to-end connectivity to S1's VLAN 99.:  <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 
 <!--
  ```diff
