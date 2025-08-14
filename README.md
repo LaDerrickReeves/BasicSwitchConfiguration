@@ -50,12 +50,12 @@ The show interface vlan 99 command is used to verify the status, IP address, and
 
 <br />
 <br />
-The ping command was used to test end-to-end connectivity to S1's VLAN 99.:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The ping 192.168.1.2 command was used to test end-to-end connectivity to S1's VLAN 99.:  <br/>
+<img src="https://i.imgur.com/P6kFo5N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+verify connection to Telnet :  <br/>
+<img src="https://i.imgur.com/djg1Fe1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 
